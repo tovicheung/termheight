@@ -1,7 +1,7 @@
 #!/bin/bash
 
 help() {
-	printf "%b\n" "\033[1;36mtermsize\033[0m"\
+	printf "%b\n" "\033[1;36mtermheight\033[0m"\
 		"Customize the scroll margin of your terminal!"\
 		"termsize help"\
 		"	Shows this help text"\
