@@ -3,13 +3,13 @@
 help() {
 	printf "%b\n" "\033[1;36mtermheight\033[0m"\
 		"Customize the scroll margin of your terminal!"\
-		"termsize help"\
+		"termheight help"\
 		"	Shows this help text"\
 		""\
-		"termsize reset"\
+		"termheight reset"\
 		"	Resets terminal scroll margin to default"\
 		""\
-		"termsize <height>"\
+		"termheight <height>"\
 		"	Sets terminal scroll margin to provided value"\
 		""
 	exit
